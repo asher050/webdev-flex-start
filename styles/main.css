@@ -6,3 +6,75 @@ body{
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+/*styling nav bar*/
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
+}
+nav ul{
+    padding-left:0;
+    list-style:none;	
+}
+.left-float{
+    float:left;
+    padding:0 15px 15px 0;
+}
+header{
+    background-color: #77a2f1;	
+    border-radius: 10px;
+    display:flex;
+    justify-content:space-between;
+}
+header h1 a{
+    color:#fff;
+    text-decoration: none;
+}
+header h1 a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding:10px;
+}
+nav li:first-child {
+    border-left:none;	
+}
+nav li a{
+    text-decoration: none;	
+    color: #fff;	
+}
+nav li a:hover{
+    color: #7E8AA2;
+}
+main{
+    display: flex;
+}
+section{
+    padding:0 10px 10px 0;
+    flex: 1 1 auto;
+}
+.sidebar{
+    padding:20px 40px;	
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
+    flex:0 0 200px;
+ }
+ .resize-img{
+    width:100%;
+    height:100%;
+}
+footer{
+    border-top:1px solid #ccc;
+    margin:20px 10px 10px 0;
+    font-size:0.8em;
+    text-align:center;
+    font-style:italic;
+}
